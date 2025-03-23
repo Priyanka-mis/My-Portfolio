@@ -2,7 +2,7 @@
     position: relative;
     height: 90vh;
     width: auto;
-    background-image: url("src/assets/image.jpg");
+    background-image: url("public/image.jpg");
     background-size: cover;
     background-position: center;
     display: flex;

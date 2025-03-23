@@ -31,11 +31,12 @@ function Project() {
 
         </div>
 {/* show more */}
-
           {showMore &&(
             <>
             <div className='project-boxes'>
-              <img src='public/netflex.png' className='project-img' alt='project'></img>
+              {/* <img src='public/netflex.png' className='project-img' alt='project'></img> */}
+              <img src='/netflex.png' className='project-img' alt='project' />
+
               <h1 className='title'>Netflex</h1>
               <button className='project-demo-button'> <a href='https://netflex-clone-iota.vercel.app/' target='_blank' rel="noopener noreferrer">Live Demo </a></button>
             </div>
