@@ -1,0 +1,123 @@
+.education-background{
+    position: relative;
+    margin-top: 5%;
+    min-height: 40vh;
+}
+
+.education-container{
+    /* height: 120vh; */
+    min-height: auto;
+    margin-top: 40px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+
+}
+
+.education-heading{
+    text-align: center;
+}
+
+.Eduction-boxex{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1.4px solid rgb(200, 198, 198);
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.education-box{
+    width: 500px;
+    height: 200px;;
+    margin: 20px; 
+    border-radius: 5px;
+    border: 1.4px solid rgb(200, 198, 198);
+    background-color: #f8f9fA;
+    font-family:Arial, sans-serif sans-serif;
+    opacity: 0;
+    transform: translate(-50px);
+    animation: slideDown 0.8s ease-in-out forwards; 
+}
+
+@keyframes slideDown {
+    form{
+        opacity: 0;
+        transform: translate(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.imge{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 40%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.imge img{
+    margin-top: 10px;
+    width:70px;
+    height: 70px;  
+}
+
+
+
+.content-education h2{
+   text-align:center;
+   color: #3e4751;
+
+}
+
+.content-education strong{
+    font-weight: 900;
+    color: orangered;
+    
+}
+
+
+
+
+/* Responsive  */
+
+@media (max-width: 768px) {
+    .education-container {
+        padding: 50px 20px; 
+        min-height: 100vh;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px; 
+        border: 1.4px solid rgb(200, 198, 198); 
+        border-radius: 100px;
+    }
+
+    .Eduction-boxex {
+        flex-direction: column;
+        width: 95%; 
+        padding: 20px 10px;
+        /* margin: 20px;  */
+    }
+
+    .education-box {
+        width: 70%;
+        height: auto;
+        margin: 10px;  
+        padding: 20px;  
+        border: 1.4px solid rgb(200, 198, 198);
+    }
+}
