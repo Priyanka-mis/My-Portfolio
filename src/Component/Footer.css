@@ -1,13 +1,20 @@
 .Footer-container{
     text-align: center;
     background-image: url("public/image.jpg");
-    color: white;
+    color: black;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60vh;
+    background: linear-gradient(to right, 
+    #D1F8EF, 
+    rgba(209, 248, 239, 0.8) 25%,  
+    rgba(255, 237, 250, 0.6) 50%, 
+    rgba(225, 234, 205, 0.8) 75%,  
+    #E1EACD  
+);
 }
 
 .footer-image{
@@ -31,7 +38,7 @@
 }
 
 .Footer-container .line{
-    border: 1px solid rgb(243, 238, 238);
+    border: 1px solid rgb(3, 1, 1);
     margin-left: 35px;
     margin-right: 35px;
 

@@ -2,18 +2,25 @@
     position: relative;
     height: 90vh;
     width: auto;
-    background-image: url("public/image.jpg");
+    /* background-image: url("public/image.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background: linear-gradient(to right, 
+        #D1F8EF, 
+        rgba(209, 248, 239, 0.8) 25%,  
+        rgba(255, 237, 250, 0.6) 50%, 
+        rgba(225, 234, 205, 0.8) 75%,  
+        #E1EACD  
+    );
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
 }
 
 .main {
     position: absolute;
-    color: white;
+    color: black;
     margin-right: 40%;
     letter-spacing: 4px;
     margin-bottom: 5%;
@@ -25,7 +32,7 @@
 
 .name {
     font-size: 55px;
-    color: rgb(209, 209, 121);
+    color: #e10509c8;
 }
 
 .role {
@@ -33,7 +40,7 @@
 }
 
 .role span {
-    color: rgb(215, 215, 129);
+    color: rgb(224, 13, 13);
 }
 
 .button-container {
@@ -48,7 +55,7 @@
     margin-right: 30px;
     border: 2px solid aqua;
     background: transparent;
-    color: white;
+    color: black;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -60,7 +67,7 @@
 
 .resume-see a, .resume-download a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 .image-container {
