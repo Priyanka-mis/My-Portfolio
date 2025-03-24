@@ -43,7 +43,7 @@ function About() {
           </div>
 
           <div className="profile-image">
-            <img src="public/priyanka photo.jpeg" alt="Priyanka Mishra" />
+            <img src="/priyanka photo.jpeg" alt="Priyanka Mishra" />
           </div>
         </div>
 

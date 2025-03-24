@@ -15,7 +15,7 @@ function Hero() {
           </div>
         </div>
         <div className="image-container">
-          <img src="public/priyanka photo.jpeg" alt="Priyanka Mishra" />
+          <img src="/priyanka photo.jpeg" alt="Priyanka Mishra" />
         </div>
       </section>
     </div>

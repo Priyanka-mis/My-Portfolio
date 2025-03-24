@@ -14,7 +14,7 @@ function Education () {
             <div className='Eduction-boxex'>
                 <div className='education-box'>
                     <div className='imge'>
-                        <img src='public/education.png'></img>
+                        <img src='/education.png'></img>
                     </div>
                     <div className='content-education'>
                         <h2>Software Development Course</h2>
@@ -24,7 +24,7 @@ function Education () {
 
                 <div className='education-box'>
                 <div className='imge'>
-                        <img src='public/education.png'></img>
+                        <img src='/education.png'></img>
                     </div>
                     <div className='content-education'>
                         <h2>Web Development</h2>
@@ -34,7 +34,7 @@ function Education () {
 
                 <div className='education-box'>
                 <div className='imge'>
-                        <img src='public/education.png'></img>
+                        <img src='/education.png'></img>
                     </div>
                     <div className='content-education'>
                         <h2>Bachelor of Art</h2>
@@ -44,7 +44,7 @@ function Education () {
 
                 <div className='education-box'>
                 <div className='imge'>
-                        <img src='public/education.png'></img>
+                        <img src='/education.png'></img>
                     </div>
                     <div className='content-education'>
                         <h2>Higher Secondary </h2>

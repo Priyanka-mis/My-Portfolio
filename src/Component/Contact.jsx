@@ -16,7 +16,7 @@ function Contact(){
       <section className='main-contact'>
           <div className='contact-box'>
             <div className='contact-img'>
-              <img src='punlic/location.png'></img>
+              <img src='/location.png'></img>
             </div>
           
             <h1>Address</h1>
@@ -25,7 +25,7 @@ function Contact(){
 
           <div className='contact-box'>
             <div className='contact-img'>
-              <img src='public/contact.png'></img>
+              <img src='/contact.png'></img>
             </div>
             
             <h1>Phone No.</h1>
@@ -34,7 +34,7 @@ function Contact(){
 
           <div className='contact-box'>
             <div className='contact-img'>
-              <img src='public/email.png'></img>
+              <img src='/email.png'></img>
             </div>
             
             <h1>Email</h1>
@@ -73,7 +73,7 @@ function Contact(){
           </div>
 
           <div className="contact-form-img">
-            <img src='public/contact us.avif'></img>
+            <img src='/contact us.avif'></img>
           </div>
           
         </div>
