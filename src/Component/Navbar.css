@@ -1,3 +1,14 @@
+
+body{
+    background: linear-gradient(to right, 
+        #D1F8EF, 
+        rgba(209, 248, 239, 0.8) 25%,  
+        rgba(255, 237, 250, 0.6) 50%, 
+        rgba(225, 234, 205, 0.8) 75%,  
+        #E1EACD  
+    );
+}
+
 header{
     display: flex;
     justify-content: space-between;
