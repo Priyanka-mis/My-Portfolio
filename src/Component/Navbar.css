@@ -1,4 +1,5 @@
 
+
 body{
     background: linear-gradient(to right, 
         #D1F8EF, 
@@ -7,6 +8,9 @@ body{
         rgba(225, 234, 205, 0.8) 75%,  
         #E1EACD  
     );
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 header{
@@ -37,162 +41,42 @@ nav a{
     font-size: 20px;
 }
 
- 
-
-
-
-
-@media (max-width: 1124px) {
-    header {
-        padding: 10px 15px;
-        height: 50px;
-    }
-
-    header img {
-        width: 120px;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    nav a {
-        font-size: 18px;
-        margin: 0 15px;
-    }
-}
-
-
+/* Media Queries for Mobile */
 @media (max-width: 868px) {
+    .toggle-btn {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.85);
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 15px 0;
+        z-index: 10;
+    }
+
+    .nav-menu.open {
+        display: flex;
+    }
+
+    .nav-menu a {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
     header {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        height: auto;
-        padding: 15px;
-    }
-
-    header img {
-        width: 100px;
-        margin-bottom: 10px;
-    }
-
-    nav {
-        justify-content: center;  /* Center alignment */
-        width: 100%;
-    }
-
-    nav a {
-        display: block;
-        margin: 8px 0;
-        font-size: 18px;
-    }
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header img{
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-
-}
-
-nav{
-    margin-right: 50px;
-}
-
-nav a{
-    margin: 0 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
- 
-
-
-
-
-
-
-@media (max-width: 1124px) {
-    header {
         padding: 10px 15px;
-        height: 50px;
     }
 
     header img {
-        width: 120px;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-
-    nav a {
-        font-size: 18px;
-        margin: 0 15px;
-    }
-}
-
-
-@media (max-width: 868px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        height: auto;
-        padding: 15px;
-    }
-
-    header img {
-        width: 100px;
+        width: 140px;
         margin-bottom: 10px;
     }
-
-    nav {
-        justify-content: center;  /* Center alignment */
-        width: 100%;
-    }
-   
-
-    nav a {
-        display: block;
-        margin: 8px 0;
-        font-size: 18px;
-    }
 }
-

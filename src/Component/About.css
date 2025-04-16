@@ -17,17 +17,15 @@
   
   .highlight {
     color: #fc3d03;
-    font-weight: bold;
   }
   
   .problem-solving {
     color: #fc3d03;
-    font-weight: large;
   }
   
   .positive-attitude {
     color: #fc3d03;
-    font-weight: bold;
+
   }
   
   .about-box {
@@ -48,7 +46,6 @@
   }
   
   .details-box {
-    font-family: Arial, sans-serif;
     text-align: left;
     font-size: 15px;
   }
@@ -125,8 +122,8 @@
   
     .profile-image {
       height: 250px;
-      width: 250px;
-      margin-bottom: 30px;
+      width: 300px;
+      margin-bottom: -30px;
     }
   
     .buttons-container {
@@ -156,14 +153,9 @@
       text-align: center;
     }
   
-    .profile-image {
-      height: 200px;
-      width: 200px;
-    }
+
   
     .buttons-container {
-      flex-direction: column;
-      align-items: center;
       margin-top: 50%;
     }
   
@@ -189,14 +181,12 @@
       font-size: 14px;
     }
   
-    .profile-image {
-      height: 180px;
-      width: 180px;
-    }
   
     .buttons-container {
-      flex-direction: column;
-      align-items: center;
+      flex-direction: row;
+      display: flex;
+      justify-content: center;
+
     }
   
     .button {
