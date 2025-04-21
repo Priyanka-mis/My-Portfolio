@@ -41,10 +41,19 @@ function Project() {
               <button className='project-demo-button'> <a href='https://netflex-clone-iota.vercel.app/' target='_blank' rel="noopener noreferrer">Live Demo </a></button>
             </div>
             <div className='project-boxes'>
-              <img src='/chatbot.png' className='project-img' alt='project'></img>
-              <h1 className='title'>Chatbot</h1>
-              <button className='project-demo-button'><a href='https://chatbot-gold-xi.vercel.app/' target='_blank' rel="noopener noreferrer"> Live Demo </a></button>
+              <img src='/Gemini AI.png' className='project-img' alt='project'></img>
+              <h1 className='title'>Gemini AI</h1>
+              <button className='project-demo-button'><a href='https://ai-chat-projects.vercel.app/' target='_blank' rel="noopener noreferrer"> Live Demo </a></button>
             </div>
+
+
+            <div className='project-boxes'>
+              <img src='/food delivery.png' className='project-img' alt='project'></img>
+              <h1 className='title'>Food Delivery</h1>
+              <button className='project-demo-button'><a href='https://food-delivery-peach-zeta.vercel.app/' target='_blank' rel="noopener noreferrer"> Live Demo </a></button>
+            </div>
+
+            
             </>
           )}
 
