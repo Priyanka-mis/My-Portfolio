@@ -38,7 +38,7 @@ function Education () {
                     </div>
                     <div className='content-education'>
                         <h2>Bachelor of Art</h2>
-                        <p>Lucknow University: <strong>Lucknow Uttar Pradeh</strong></p>
+                        <p>Lucknow University: <strong>Lucknow Uttar Pradesh</strong></p>
                     </div>
                 </div>
 
